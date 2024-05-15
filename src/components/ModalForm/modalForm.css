@@ -1,0 +1,21 @@
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  background: #fffef0;
+  border-radius: 10px;
+  box-shadow: 24;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  background-color: #2d88f0;
+  color: white;
+  padding: 0.5rem;
+}
